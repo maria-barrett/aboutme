@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Lora', arial, sans-serif;
+  color: #1c1124;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", arial, sans-serif;
+  font-weight: bold;
+  font-size: 5.625rem;
+  color: #540e33;
+
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  color: #540e33;
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 1.5rem;
+  color: #540e33;
+}
+
+.top-container {
+  background-color: #f3e6e3;
+  font-weight: bold;
+  font-family: serif;
+  padding-top: 50px;
+  position: relative;
+
+}
+
+.middle-container {
+  background-color: #f4eeed;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+
+}
+
+.bottom-container {
+  background-color: #f3e6e3;
+  padding: 50px 0 20px;
+  margin-bottom: 0;
+}
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+  max-width: 200px;
+  max-height: 800px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 250px;
+  max-width: 200px;
+  max-height: 800px;
+}
+ .code-image {
+   width: 30%;
+   float: left;
+   margin-right: 30px;
+ }
+
+ .profile-image {
+   width: 18%;
+ }
+
+ .research-image {
+   width: 30%;
+   float: right;
+   margin-left: 30px;
+ }
+
+ .wellness-image {
+   width: 30%;
+   float: left;
+   margin-right: 30px;
+ }
+
+ .programmer {
+   font-size: 2.5rem;
+   font-family: 'Lora', arial, sans-serif;
+   font-weight: normal;
+ }
+
+ .skill-row {
+   width: 50%;
+   margin: 100px auto 100px auto;
+   text-align: left;
+   line-height: 2;
+
+ }
+
+ hr {
+   border: dotted #ebd4d4 6px;
+   border-bottom: none;
+   width: 5%;
+   margin: 100px auto 100px auto;
+
+ }
+
+ .pro {
+   text-decoration: underline;
+ }
+
+ .skills {
+   margin: auto;
+ }
+
+ .profile {
+   margin-top: 5%;
+   margin-bottom: 5%;
+ }
+
+ .contact-me {
+   width: 40%;
+   margin: 40px auto 60px auto;
+ }
+
+.footer-link {
+  padding: 30px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+
+}
+
+p {
+  line-height: 2;
+}
+
+.btn {
+   background: #ebd4d4;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 50px;
+   line-height: 50px;
+   color: #360827;
+   font-family: 'Lora', arial, sans-serif;
+   width: 200px;
+   font-size: 16px;
+   font-weight: 100;
+   padding: 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: auto;
+}
+
+.btn:hover {
+   border: solid #f4dada 1px;
+   background: #f4dada;
+   color: #360827;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+a {
+  color: #360827;
+  font-family: 'Lora', arial, sans-serif;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #e1addc;
+}
+
+.copyright {
+  color: #bb8fa9;
+  font-size: .75rem;
+  padding: 20px 0 20px 0;
+}
