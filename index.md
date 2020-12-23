@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Maria Barrett</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="icon" href="faviconheart.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&family=Montserrat:wght@100;300&family=Sacramento&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="top-container">
+      <img class="top-cloud" src="images/mycloud.png" alt="cloud-img">
+      <h1>I'm Maria.</h1>
+      <p class="programmer">a <span class="pro">pro</span>grammer.</p>
+      <img class="bottom-cloud" src="images/mycloud.png" alt="cloud-img">
+      <img class="mountain-image" src="images/mountain.png" alt="mountain-img">
+
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-image" src="images/maria.png" alt="Profile picture">
+        <h2>Hello.</h2>
+        <p class="intro">I am a student in Angela Yu's bootcamp on <strong><a target="_blank" href="https://www.udemy.com/"> Udemy</a></strong> learning how to code. I 💗coffee and margaritas.</p></td></p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-image" src="images/laptop.png" alt="Computer image">
+          <h3>Design & Development</h3>
+          <p>I am learning to code through online schools such as, Udemy and Codecademy.  I am learning to master HTML, SQL, JavaScript, React and CSS.  This website is my first creation!</p>
+        </div>
+        <div class="skill-row">
+          <img class="research-image" src="images/research-imagecircle.png" alt="Research image">
+          <h3>Research & Learn New Things</h3>
+          <p>I have a passion to learn new things.  Researching anything that strikes my interest is a hobby of mine.  I espescially enjoy learning about longevity and wellness.</p>
+        </div>
+        <div class="skill-row">
+          <img class="wellness-image" src="images/wellness-stones.png" alt="Stones image">
+          <h3>Wellness</h3>
+          <p>I am passionate about health and wellness.  Reading books about longevity, diet, and wellness is one of my favorite ways to spend my free time.  I also love to go for runs and walk my dogs.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Always feel free to reach out!</h3>
+        <p>Love coding, research, or wellness as much as I do?  Let's talk!  We can enjoy a green smoothie while we code.</p>
+        <a class="btn" href="mailto:barrett.ria@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a target="_blank" class="footer-link" href="https://www.linkedin.com/feed/">LinkedIn</a>
+      <a target="_blank" class="footer-link" href="https://www.instagram.com/">Instagram</a>
+      <a target="_blank" class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2020 Maria Barrett.</p>
+    </div>
+
+  </body>
+</html>
