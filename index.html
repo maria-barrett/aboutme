@@ -1,61 +1,162 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Maria Barrett</title>
-    <link rel="stylesheet" href="styles/stylesheet.css">
-    <link rel="icon" href="faviconheart.ico">
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Merriweather:wght@300&family=Montserrat:wght@100;300&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/mycloud.png" alt="cloud-img">
-      <h1>I'm Maria.</h1>
-      <p class="programmer">a <span class="pro">pro</span>grammer.</p>
-      <img class="bottom-cloud" src="images/mycloud.png" alt="cloud-img">
-      <img class="mountain-image" src="images/mountain.png" alt="mountain-img">
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maria Barrett — Full-Stack Software Engineer</title>
+  <meta name="description" content="Full-stack software engineer in Cleveland, OH. Previously at KeyBank and Progressive Insurance; builder of RiffCue.">
+  <meta property="og:title" content="Maria Barrett — Full-Stack Software Engineer">
+  <meta property="og:description" content="Full-stack software engineer in Cleveland, OH. Previously at KeyBank and Progressive Insurance; builder of RiffCue.">
+  <meta property="og:image" content="https://maria-barrett.github.io/aboutme/assets/maria-headshot-web.jpg">
+  <meta property="og:url" content="https://maria-barrett.github.io/aboutme/">
+  <link rel="canonical" href="https://maria-barrett.github.io/aboutme/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    </div>
-    <div class="middle-container">
-      <div class="profile">
-        <img class="profile-image" src="images/maria.png" alt="Profile picture">
-        <h2>Hello!</h2>
-        <p class="intro">I am a student at <strong><a target="_blank" href="https://www.techelevator.com/cleveland"> Tech Elevator</a></strong> learning how to code. I 💗coffee and margaritas.</p></td></p>
+<header class="site-header" id="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="brand">Maria Barrett</a>
+    <nav class="nav" aria-label="Main">
+      <a href="#work" data-section="work">Work</a>
+      <a href="#riffcue" data-section="riffcue">RiffCue</a>
+      <a href="#about" data-section="about">About</a>
+      <a href="#contact" data-section="contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="top" class="container hero">
+    <div class="hero-text">
+      <p class="eyebrow">Full-Stack Software Engineer</p>
+      <h1 class="headline" aria-label="I turn complex problems into software people rely on.">
+        <span class="word" style="--i:0">I</span>
+        <span class="word" style="--i:1">turn</span>
+        <span class="word" style="--i:2">complex</span>
+        <span class="word" style="--i:3">problems</span>
+        <span class="word" style="--i:4">into</span>
+        <span class="word" style="--i:5"><em>software</em></span>
+        <span class="word" style="--i:6">people</span>
+        <span class="word" style="--i:7">rely</span>
+        <span class="word" style="--i:8">on.</span>
+      </h1>
+      <p class="lede">I've built software at KeyBank and Progressive Insurance, then spent years as a consultant helping teams ship. Most recently I designed and built RiffCue, a full booking platform for talent agencies. Give me a strong team and a hard problem, and I'm happy.</p>
+      <div class="actions">
+        <a href="#contact" class="btn btn-solid">Get in touch</a>
+        <a href="#work" class="btn btn-outline">See my work</a>
       </div>
-      <hr>
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="code-image" src="images/laptop.png" alt="Computer image">
-          <h3>Design & Development</h3>
-          <p>While working as a data analyst, I found my passion for problem solving.  I love the challenge of working with large data sets and solving problems through analysis.  I am learning to master Java, HTML, SQL, JavaScript, React Vue.js, Git, and CSS.  I participate in pair programming and peer code reviews.  I am looking to begin my career as a Software Engineer primed to solve business problems. </p>
-        </div>
-        <div class="skill-row">
-          <img class="research-image" src="images/research-imagecircle.png" alt="Research image">
-          <h3>Research & Continuous Education</h3>
-          <p>I have a passion to learn new things.  Researching anything that strikes my interest is a hobby of mine.  Steve Jobs once said "learn continually - there's always "one more thing" to learn!"  It is through continuous education that I am adaptable and always ready to take on new challenges in the workforce.  </p>
-        </div>
-        <div class="skill-row">
-          <img class="wellness-image" src="images/wellness-stones.png" alt="Stones image">
-          <h3>Wellness</h3>
-          <p>I am passionate about health and wellness.  Reading books about longevity, diet, and wellness is one of my favorite ways to spend my free time.  I also love to go for runs and walk my dogs.</p>
-        </div>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/maria-headshot-web.jpg" alt="Maria Barrett" width="640" height="800" fetchpriority="high">
+    </div>
+  </section>
+
+  <section id="work" class="band-blush">
+    <div class="container split">
+      <div class="split-head reveal">
+        <p class="eyebrow">01 — Experience</p>
+        <h2>Where I've built.</h2>
       </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Always feel free to reach out!</h3>
-        <p>Love coding, research, or wellness as much as I do?  Let's talk!  We can enjoy a green smoothie while we code.</p>
-        <a class="btn" href="mailto:barrett.ria@gmail.com">CONTACT ME</a>
+      <div class="split-body reveal">
+        <article class="role">
+          <div class="role-title">
+            <h3>RiffCue</h3>
+            <span class="pill">Current</span>
+          </div>
+          <p class="role-position">Founder &amp; Engineer</p>
+          <p class="role-desc">Designed and built a full-stack booking platform for talent agencies, covering architecture, code and product.</p>
+        </article>
+        <article class="role">
+          <h3>Independent Consulting</h3>
+          <p class="role-position">Software Consultant</p>
+          <p class="role-desc">Built a client's appointment scheduling system a decade ago and recently modernized it with React and Java. It still runs ~200 appointments a month. Replaced a print-scan-mail process with digital signatures, covering 300+ a month. Delivered React components and Java REST services for a vehicle titling and registration system.</p>
+        </article>
+        <article class="role">
+          <h3>Progressive Insurance</h3>
+          <p class="role-position">Software Engineer</p>
+          <p class="role-desc">Shipped features for an insurance claims application in Angular, C#, .NET and AWS, including text messaging between Progressive and businesses involved in a claim. Led the team's stand-ups, coordinated releases and presented progress to leadership.</p>
+        </article>
+        <article class="role">
+          <h3>KeyBank</h3>
+          <p class="role-position">Associate Software Engineer</p>
+          <p class="role-desc">Built features in React, Java and Material UI for a high-performance contact center application supporting millions of customer interactions a month. Delivered features that improved the customer service experience while meeting banking compliance standards.</p>
+        </article>
+        <ul class="stack" aria-label="Tech stack">
+          <li>Java</li><li>C#</li><li>.NET</li><li>JavaScript</li><li>Angular</li><li>React</li><li>Vue.js</li><li>Material UI</li><li>SQL</li><li>AWS</li><li>CI/CD</li>
+        </ul>
       </div>
     </div>
+  </section>
 
-
-    <div class="bottom-container">
-      <a target="_blank" class="footer-link" href="https://www.linkedin.com/in/maria-barrett">LinkedIn</a>
-      <a target="_blank" class="footer-link" href="https://github.com/maria-barrett">Github</a>
-      <p class="copyright">©2021 Maria Barrett.</p>
+  <section id="riffcue" class="band-dark">
+    <div class="container riffcue">
+      <div class="reveal">
+        <p class="eyebrow eyebrow-light">02 — Latest build</p>
+        <h2 class="riffcue-title">RiffCue</h2>
+        <p class="riffcue-desc">The booking platform for talent agencies. RiffCue keeps inquiries, holds, contracts and payouts in one place, so agents always know what needs them today and no date slips through the cracks.</p>
+        <div class="actions">
+          <a href="https://www.riffcue.com" target="_blank" rel="noopener" class="btn btn-light">Visit RiffCue ↗</a>
+        </div>
+      </div>
+      <button class="shot reveal" id="shot-open" aria-label="Enlarge RiffCue dashboard">
+        <img src="assets/riffcue-dashboard-sm.png" alt="RiffCue dashboard" width="1088" height="1344" loading="lazy">
+        <span class="shot-hint">Click to enlarge ⤢</span>
+      </button>
     </div>
+  </section>
 
-  </body>
+  <section id="about" class="container split">
+    <div class="split-head reveal">
+      <p class="eyebrow">03 — About</p>
+      <h2>Analyst, engineer, consultant, founder.</h2>
+    </div>
+    <div class="split-body about-grid reveal">
+      <div>
+        <h3 class="about-heading">Problem solver first</h3>
+        <p>My career began in data analysis, where I learned to ask why before asking how. That habit followed me through Tech Elevator and into engineering. I start with the problem, follow the data, and build what actually solves it.</p>
+      </div>
+      <div>
+        <h3 class="about-heading">Always learning</h3>
+        <p>Moving from regulated, large-scale systems to a startup means learning something new every week. That's exactly where I do my best work.</p>
+      </div>
+      <div>
+        <h3 class="about-heading">Off the clock</h3>
+        <p>You'll find me cheering on my kids at their games, out for a run, walking my dogs or deep in a good book, usually with a coffee in hand.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="band-blush">
+    <div class="container contact">
+      <div class="reveal">
+        <p class="eyebrow">04 — Contact</p>
+        <h2 class="contact-title">Let's talk — the coffee's on me.</h2>
+        <div class="actions">
+          <a href="mailto:barrett.ria@gmail.com" class="btn btn-solid">Email me</a>
+          <a href="https://www.linkedin.com/in/maria-barrett" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn ↗</a>
+        </div>
+      </div>
+      <footer class="footer">
+        <span>© 2026 Maria Barrett</span>
+        <span>Designed &amp; built by Maria</span>
+        <span>Cleveland, OH</span>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="shot-close" aria-label="Close">Close ✕</button>
+  <img src="assets/riffcue-dashboard.png" alt="RiffCue dashboard, full size" loading="lazy">
+</div>
+
+<script src="script.js"></script>
+</body>
 </html>
